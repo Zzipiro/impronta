@@ -35,7 +35,7 @@ a:hover, a:focus {
     max-width: 400px;
     margin: 0 auto;
     min-height: 100dvh;
-    padding: 5dvh 0;
+    padding: 2em 0;
 }
 
 .logo--box {
