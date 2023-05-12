@@ -32,7 +32,7 @@ a:hover, a:focus {
     flex-direction: column;
     justify-content: center;
     width: 80%;
-    max-width: 500px;
+    max-width: 420px;
     margin: 0 auto;
     min-height: 100svh;
 }
