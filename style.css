@@ -31,7 +31,8 @@ a:hover, a:focus {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    max-width: 80%;
+    width: 80%;
+    max-width: 500px;
     margin: 0 auto;
     min-height: 100svh;
 }
@@ -74,14 +75,13 @@ p {
 
 .link--box {
     display: flex;
-    justify-content: center;
     flex-direction: column;
-    margin: 4em 0 4em 0;
+    margin: 4em auto 4em auto;
 }
 
 .social--box {
     display: flex;
-    justify-content: center;
+    justify-content: start;
     align-items: center;
 }
 
@@ -90,10 +90,14 @@ p {
 }
 
 .link--logo {
-    width: 2.5em;
+    width: 2.75em;
     stroke-width: 5px;
     margin-right: 1em;
     filter: invert(95%) sepia(74%) saturate(7024%) hue-rotate(149deg) brightness(83%) contrast(82%);
+}
+
+.social--box a {
+    font-size: 1.125rem;
 }
 
 .btn {
@@ -112,10 +116,4 @@ p {
     background-color: var(--accent);
     color: var(--light);
     font-weight: bold;
-}
-
-@media screen and (min-width:700px) {
-    .container {
-        max-width: 400px;
-    }
 }
